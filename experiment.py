@@ -2,7 +2,7 @@
 
 def menu():
     while True:
-        choice = input("1 Octal to Decimal\n2 Decimal to Octal\n3 Exit\n\nPlease enter the designated number for a certain task: ")
+        choice = input("1 Octal to Decimal\n2 Decimal to Octal\n3 Exit\n\nPlease enter a number from 1~3: ")
         if choice == "1":
             digit = input("Enter a string of octal digits: ")
 
