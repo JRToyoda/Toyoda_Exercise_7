@@ -1,8 +1,8 @@
 # experiment lng to ma'am. I'm not late. I passed on time huhu
 
-
 while True:
     choice = input("1 Octal to Decimal\n2 Decimal to Octal\n3 Exit\n\nPlease enter a number from 1~3: ")
+
     if choice == "1":
         digit = input("Enter a string of octal digits: ")
 
@@ -22,6 +22,7 @@ while True:
                 i *= 8
 
             print("The integer value is ", decimal, "\n")
+
     elif choice == "2":
         digit = input('Enter a decimal integer: ')
 
@@ -54,6 +55,3 @@ while True:
 
     else:
         print("Please input a valid number\n")
-
-
-
