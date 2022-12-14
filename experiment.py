@@ -1,5 +1,3 @@
-# experiment lng to ma'am. I'm not late. I passed on time huhu
-
 while True:
     choice = input("1 Octal to Decimal\n2 Decimal to Octal\n3 Exit\n\nPlease enter a number from 1~3: ")
 
